@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: backend-service-test
+  cloud:
+    config:
+      enabled: false
+    discovery:
+      enabled: false
+
+database:
+  service:
+    url: http://localhost:8081
